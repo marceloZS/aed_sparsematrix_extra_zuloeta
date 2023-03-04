@@ -1,5 +1,5 @@
 #include <iostream>
-#include "hashsparsematrix.h"
+//#include "hashsparsematrix.h"
 #include "listsparsematrix.h"
 #include "tester.h"
 
@@ -13,11 +13,11 @@ void  testListSparse();
 
 int main(int argc, char const *argv[])
 {
-    testHashSparse();
+    //testHashSparse();
     testListSparse();    
     return 0;
 }
-
+/*
 void  testHashSparse(){
     HashSparseMatrix<int> matrix1, matrix2, matrix3;
     unsigned rows = 5, cols = 5, count = 3;
@@ -52,10 +52,10 @@ void  testHashSparse(){
     matrix3.display();
 
     matrix3 = (matrix1 * 2) + (matrix2 * 3);       
-    cout<<"\Multiplicacion Escalar:\n";
+    cout<<"\nMultiplicacion Escalar:\n";
     matrix3.display();
 }
-
+*/
 void  testListSparse(){
     ListSparseMatrix<int> matrix1, matrix2, matrix3;
     unsigned rows = 5, cols = 5, count = 3;
@@ -84,13 +84,13 @@ void  testListSparse(){
     matrix3 = matrix1 - matrix2;    
     cout<<"\nResta:\n";
     matrix3.display();
-
+    /*
     matrix3 = matrix1 * matrix2;    
     cout<<"\nMultiplicacion Matricial:\n";
     matrix3.display();
-
+    */
     matrix3 = (matrix1 * 2) + (matrix2 * 3);       
-    cout<<"\Multiplicacion Escalar:\n";
+    cout<<"\nMultiplicacion Escalar:\n";
     matrix3.display();
 }
 

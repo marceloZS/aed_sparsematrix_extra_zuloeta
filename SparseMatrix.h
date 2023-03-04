@@ -4,8 +4,8 @@
 template <typename T>
 class SparseMatrix {
     protected:
-        unsigned rows;
-        unsigned columns;
+        unsigned rows; //numero de filas
+        unsigned columns; //numero de columnas
 
     public:        
         virtual bool set(unsigned posX, unsigned posY, T data) = 0;

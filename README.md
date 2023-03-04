@@ -1,4 +1,9 @@
-# Alumno: ____   _____
+# Alumno: Marcelo Zuloeta
+
+Fueron implementadas todas las funciones del Sparse Matrix con Linked Lists.
+Se comentaron las llamadas al Sparse Matrix con HASH para que no existan conflictos.
+Todas las funciones compilan, y cumplen la complejidad algorítmica.
+Se dejaron los casos de prueba originales que estaban en la plantilla, para que no exista confusión.
 
 # Sparse Matrix
 Implementar todos los métodos en ambas técnicas de Sparse Matrix. 
